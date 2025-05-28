@@ -138,11 +138,11 @@ export default function CustomFurniturePage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=600&width=500"
-                alt="Custom furniture design process"
+                src="https://images.unsplash.com/photo-1593307315564-c96172dc89dc?q=80&w=1972&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Custom furniture showcase"
                 width={500}
                 height={600}
-                className="rounded-lg shadow-xl"
+                className="rounded-lg"
               />
             </div>
           </div>

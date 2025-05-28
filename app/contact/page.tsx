@@ -116,7 +116,7 @@ export default function ContactPage() {
                   <div className="space-y-4">
                     <div className="flex items-center space-x-4">
                       <Image
-                        src="/placeholder.svg?height=60&width=60"
+                        src="https://media.licdn.com/dms/image/v2/D5603AQFpBhH8Pxv1Aw/profile-displayphoto-shrink_400_400/B56ZNt03ojGgAg-/0/1732714449466?e=1753920000&v=beta&t=N1gHgbKlLcnpL8wi1SlyyOXl5u0mEjcRjKsdfyrHM2c"
                         alt="Florin Ostafe"
                         width={60}
                         height={60}
@@ -129,7 +129,7 @@ export default function ContactPage() {
                     </div>
                     <div className="flex items-center space-x-4">
                       <Image
-                        src="/placeholder.svg?height=60&width=60"
+                        src="https://media.licdn.com/dms/image/v2/D4D03AQEKeGgPeGiUlA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1712221296112?e=1753920000&v=beta&t=4WLidpV4sx2qN4ECuMeybAD8MlufGSLh2m4rkBwrzwc"
                         alt="Ana Maria Soare"
                         width={60}
                         height={60}
@@ -335,17 +335,17 @@ export default function ContactPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Image
-                src="/placeholder.svg?height=250&width=200"
-                alt="Workshop session"
-                width={200}
-                height={250}
+                src="https://plus.unsplash.com/premium_photo-1664476744415-5eda534b7cf0?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Workshop participant"
+                width={250}
+                height={200}
                 className="rounded-lg"
               />
               <Image
-                src="/placeholder.svg?height=250&width=200"
-                alt="Workshop participants"
-                width={200}
-                height={250}
+                src="https://plus.unsplash.com/premium_photo-1664474634670-fa35069cf93a?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Workshop in progress"
+                width={250}
+                height={200}
                 className="rounded-lg mt-8"
               />
             </div>

@@ -154,14 +154,14 @@ export default function WorkshopsPage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               <Image
-                src="/placeholder.svg?height=250&width=200"
+                src="https://plus.unsplash.com/premium_photo-1664300494539-313eac2a6095?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Workshop participant"
                 width={200}
                 height={250}
                 className="rounded-lg"
               />
               <Image
-                src="/placeholder.svg?height=250&width=200"
+                src="https://images.unsplash.com/photo-1601058268499-e52658b8bb88?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Workshop in progress"
                 width={200}
                 height={250}
@@ -188,7 +188,7 @@ export default function WorkshopsPage() {
                   <div className="grid md:grid-cols-2 gap-0">
                     <div className="relative h-64 md:h-auto">
                       <Image
-                        src={workshop.image || "/placeholder.svg"}
+                        src={workshop.image || "https://plus.unsplash.com/premium_photo-1682145637222-1556eda23db6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                         alt={workshop.title}
                         fill
                         className="object-cover rounded-l-lg"
@@ -325,7 +325,7 @@ export default function WorkshopsPage() {
                 <CardContent className="p-6">
                   <div className="flex items-center space-x-4 mb-4">
                     <Image
-                      src={testimonial.image || "/placeholder.svg"}
+                      src={testimonial.image || "https://images.unsplash.com/photo-1497219055242-93359eeed651?q=80&w=2049&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"}
                       alt={testimonial.name}
                       width={60}
                       height={60}
@@ -386,11 +386,11 @@ export default function WorkshopsPage() {
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=400&width=500"
-                alt="Private workshop session"
+                src="https://images.unsplash.com/photo-1544164560-adac3045edb2?q=80&w=1911&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Workshop gallery"
                 width={500}
                 height={400}
-                className="rounded-lg shadow-xl"
+                className="rounded-lg"
               />
             </div>
           </div>
