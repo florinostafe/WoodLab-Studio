@@ -32,7 +32,7 @@ export default function GalleryPage() {
       id: 3,
       title: "Reclaimed Door Coffee Table",
       category: "tables",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "https://img.freepik.com/free-photo/handsome-carpenter-working-with-wood_1157-26130.jpg?semt=ais_hybrid&w=740",
       description: "Antique door repurposed as a unique coffee table",
       materials: ["Antique wooden door", "Steel hairpin legs", "Glass top"],
       year: "2024",
@@ -211,7 +211,7 @@ export default function GalleryPage() {
                 <CardContent className="p-0">
                   <div className="relative overflow-hidden">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRprdFTxkf6c0zwMnhiymuwZWfDkqpQzGMjiw&s"}
                       alt={project.title}
                       width={600}
                       height={400}
