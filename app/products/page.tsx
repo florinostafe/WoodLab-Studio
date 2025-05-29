@@ -106,7 +106,7 @@ export default function ProductsPage() {
                   <div className={`grid md:grid-cols-2 gap-0 ${index % 2 === 1 ? "md:grid-flow-col-dense" : ""}`}>
                     <div className={`relative ${index % 2 === 1 ? "md:order-2" : ""}`}>
                       <Image
-                        src={category.image || "/placeholder.svg"}
+                        src={category.image || "https://www.thespruce.com/thmb/Vga8rbTmD90FxBsbx6xmwlbVJCo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/woodshopdiaries-f542797071af412a83859b332d1acd73.jpg"}
                         alt={category.title}
                         width={600}
                         height={400}
